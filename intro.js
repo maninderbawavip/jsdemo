@@ -4,8 +4,6 @@ const fs = require('fs');
 // const hello = "Hello World"
 // console.log(hello)
 
-
-
 // fs.writeFileSync('./files/hello.txt', output + " my new output")
 
 // template literals

@@ -1,0 +1,30 @@
+{
+  "name": "jsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node intro.js",
+    "hello": "node demo.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maninderbawavip/jsdemo.git"
+  },
+  "author": "Maninder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maninderbawavip/jsdemo/issues"
+  },
+  "homepage": "https://github.com/maninderbawavip/jsdemo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

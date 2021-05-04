@@ -155,4 +155,4 @@ function FirstFunc(){
 let returnedFunc = FirstFunc() 
 
 returnedFunc()
-FirstFunc()() 
+// FirstFunc()() 
