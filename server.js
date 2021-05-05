@@ -8,19 +8,6 @@ const server = http.createServer((req, res) => {
             'Content-type': 'text/html'
         })
         res.end('<h1>hello g</h1> <a href="http://www.google.com">google.com</a>')
-    } else if(req.url === "/api"){
-        res.writeHead(200, {
-            'Content-type': "application/json"
-        })
-        res.end(`{
-            "firstName": "Maninder",
-            "lastName": "bawa"
-        }`)
-    } else {
-        res.writeHead(404, {
-            'Content-type': 'text/html'
-        })
-        res.end('<h1>Page not found</h1>')
     }
 
 })
