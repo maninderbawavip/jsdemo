@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {
             'Content-type': 'text/html'
         })
-        res.end('<h1>hello Maninder Singh g</h1> <a href="http://www.google.com">google.com</a>')
+        res.end('<h1>hello Maninder Rahul Singh g</h1> <a href="http://www.google.com">google.com</a>')
     }
 
 })
